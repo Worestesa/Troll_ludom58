@@ -17,7 +17,7 @@ public class ClikcCounter : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             clickNumbers++;
-            numbersText.text = $"Кликнуто около:{clickNumbers}";
+            numbersText.text = $"Кликнуто около:{clickNumbers} из 10";
             if (clickNumbers >= 10)
             {
                 SceneManager.LoadScene(nameScene);
