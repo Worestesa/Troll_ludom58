@@ -226,7 +226,6 @@ RectTransform:
   - {fileID: 1097999143}
   - {fileID: 424300149}
   - {fileID: 746763005}
-  - {fileID: 690403982}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2227,7 +2226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"But stop clicking, I forbid it)" -- Troller'
+  m_text: '"Have you counted everything?)" -- Troller'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2361,7 +2360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Okay... Take the hat." -- Troller'
+  m_text: '"Okay, just kidding, here''s yours...." -- Troller'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2910,7 +2909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907c38b288c68c846a974e7b65856637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameScene: Level-2
+  nameScene: Level-3
 --- !u!114 &633911682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3277,17 +3276,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690403979}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 24699482}
+  m_Father: {fileID: 1220140338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -775, y: -492}
-  m_SizeDelta: {x: 365.96, y: 50}
+  m_AnchoredPosition: {x: -647.2611, y: -478}
+  m_SizeDelta: {x: 621.4377, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &694229922
 GameObject:
@@ -5288,6 +5287,7 @@ RectTransform:
   - {fileID: 1083380639}
   - {fileID: 1060156675}
   - {fileID: 1167069880}
+  - {fileID: 690403982}
   m_Father: {fileID: 24699482}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5599,7 +5599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -318.82684, y: -161.20522}
+  m_AnchoredPosition: {x: -246, y: -161.20522}
   m_SizeDelta: {x: 329.4427, y: 842.7565}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412041395
@@ -7297,7 +7297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907c38b288c68c846a974e7b65856637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameScene: Level-1
+  nameScene: Level-2
 --- !u!114 &1670880299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7794,7 +7794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Heh.... Now you''ve become my hat, lo-lo-lo)" --Troller'
+  m_text: '"And here''s my bottle)" --Troller'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8343,7 +8343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907c38b288c68c846a974e7b65856637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameScene: Level-1
+  nameScene: Level-2
 --- !u!114 &1965132859
 MonoBehaviour:
   m_ObjectHideFlags: 0
