@@ -11,7 +11,9 @@ public class ClikcCounter : MonoBehaviour
     public int clickNumbers;
     public string nameScene;
     public TMP_Text numbersText;
-    [SerializeField] private GameObject UIbes;
+    
+    [SerializeField] private GameObject UIoff;
+    [SerializeField] private GameObject UIon;
 
     public void Update()
     {
@@ -22,7 +24,8 @@ public class ClikcCounter : MonoBehaviour
             numbersText.text = $"Кликнуто около:{clickNumbers} из 10";
             if (clickNumbers >= 10)
             {
-                SceneManager.LoadScene(nameScene);
+                UIoff.SetActive(false);
+                UIon.SetActive(true); ;
             }
         }
     }

@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MenuFaildClick : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject UIoff;
+    [SerializeField] private GameObject UIon;
 
-    // Update is called once per frame
-    void Update()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        
+        UIoff.SetActive(false);
+        UIon.SetActive(true);
     }
 }
